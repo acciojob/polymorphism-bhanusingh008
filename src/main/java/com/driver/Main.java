@@ -5,9 +5,9 @@ public class Main {
 
         Product p = new Product();
 
-        System.out.println(p.product(2, 4));
-        System.out.println(p.product(2.00, 5.87));
-        System.out.println(p.product(2,4,5));
+        p.product(2, 4);
+        p.product(2.00, 5.87);
+        p.product(2,4,5);
     }
 
     static class Product{
